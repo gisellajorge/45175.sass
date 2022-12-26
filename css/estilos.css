@@ -9,7 +9,7 @@ li {
   display: block;
   align-items: center;
   align-content: center;
-  padding-left: 20rem;
+
 }
 .gradiente {
   background: radial-gradient(265% 100% at 52% 12%, rgb(5, 1, 15) 8%, rgb(27, 38, 140) 78%, rgb(10, 154, 173) 100%);

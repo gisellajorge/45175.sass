@@ -91,7 +91,10 @@ footer{
   flex-wrap:wrap;
 justify-items: center;
 justify-content: center;}
-
+nav{
+ display: flex;
+ flex-direction: column; 
+}
  
 }
 

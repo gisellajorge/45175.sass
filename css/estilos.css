@@ -1,7 +1,7 @@
 li {
   list-style: none;
   text-decoration: none;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   margin: 3rem;
 }
@@ -66,7 +66,7 @@ input, textarea{
 textarea{
 min-height: 100px;
 max-height: 200px;
-max-width: 100px;
+max-width: 450px;
 }
 
 #boton{
@@ -85,7 +85,18 @@ max-width: 100px;
   }
   iframe{ 
     width: 100%}
+footer{ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+justify-items: center;
+justify-content: center;}
+
+ 
 }
+
+
+  
 a {
   text-decoration: none;
   color: rgb(45, 81, 240);
@@ -97,7 +108,7 @@ a:hover {
 
 h2 {
   font-size: 3rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: bold;
   color: rgb(90, 91, 86);
@@ -112,7 +123,7 @@ h3 {
   padding-top: 19px;
   padding-bottom: 39px;
   font-size: 30px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
 }
 header{
@@ -125,7 +136,7 @@ justify-items: center;
 
 h1 {
   font-size: 3rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: bold;
   color: rgb(90, 91, 86);
